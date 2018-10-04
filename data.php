@@ -21,8 +21,6 @@ $wines = [
   ],
   "price" => ""
 ];
-
-
     
 
 var_dump(select());
