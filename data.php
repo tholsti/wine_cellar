@@ -1,5 +1,7 @@
 <?php
 
+require "DBBlackbox.php";
+
 $wines = [
   "producer" => "",
   "name" => "",
@@ -8,14 +10,15 @@ $wines = [
   "region" => [
     "country" => "",
     "area" => "",
-    "terroir" => ""
-  ],
+    "terroir" => ""],
   "description" => [
     "body" => "",
     "bouquet" => "",
     "alcohol_content" => "",
     "maturation" => "",
     "comments" => "",
-  ];
-  "price" => "";
-]
+  ],
+  "price" => ""
+];
+
+var_dump(select());
