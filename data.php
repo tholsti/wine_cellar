@@ -1,6 +1,7 @@
 <?php
 
 require "DBBlackbox.php";
+require "edit.php";
 
 $wines = [
   "producer" => "",
@@ -20,5 +21,8 @@ $wines = [
   ],
   "price" => ""
 ];
+
+
+    
 
 var_dump(select());
